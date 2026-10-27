@@ -139,7 +139,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: sign-image
-      image: quay.io/konflux-ci/release-service-utils@sha256:d2ee80f77ebea30d6bc4e09af11278c60da95e0da33a0d5448f826aaf1ecf0e0
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:734b273110be5ccf9b5adf1af677f2fbedac2d22fc926f3a53685477204304d6
       computeResources:
         limits:
           memory: 2.5Gi

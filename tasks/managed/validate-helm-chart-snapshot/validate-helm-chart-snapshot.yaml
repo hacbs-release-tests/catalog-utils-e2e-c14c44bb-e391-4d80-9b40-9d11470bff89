@@ -106,7 +106,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: validate-helm-chart-snapshot
-      image: quay.io/konflux-ci/release-service-utils@sha256:b51822e0a0b8eec0f92aef1976b8ca424ea1ae12a0bb5a6661406f792c29b803
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:734b273110be5ccf9b5adf1af677f2fbedac2d22fc926f3a53685477204304d6
       computeResources:
         limits:
           memory: 256Mi
